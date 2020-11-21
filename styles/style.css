@@ -1,0 +1,38 @@
+body {
+  color: white;
+  text-transform: uppercase;
+  background-image: url("../images/tint.jpg");
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.block {
+  width: 400px;
+  background-image: url("../images/bg-main.jpg");
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
